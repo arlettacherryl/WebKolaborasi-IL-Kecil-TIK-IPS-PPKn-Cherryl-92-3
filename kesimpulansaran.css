@@ -1,0 +1,83 @@
+body{
+    background-image: url(background\ transparant.png);
+}
+
+.Header{
+    width: 100px;
+    margin: 0px;
+    position:relative;
+}
+
+ul{
+    list-style:none;
+    background: #859F3D;
+    padding: 0px 0px;
+    margin: 0px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+ul a:hover{
+    background-color: #31511E;
+}
+
+/* Kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.footer{
+    width: 1280px;
+    position: absolute;
+    top:800px;
+    right: 5px;
+    left: 5px;
+}
+
+.judul{
+    text-align: justify;
+}   
+
+.isi{
+    background-color: #d1ed7f;
+}
+
+.isinya{
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+
+.link{
+    text-align: justify;
+}
+
+li{
+    text-align: justify;
+    list-style-position: inside;
+    list-style-type: square;
+}

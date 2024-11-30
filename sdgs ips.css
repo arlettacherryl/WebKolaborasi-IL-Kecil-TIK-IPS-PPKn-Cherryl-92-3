@@ -1,0 +1,123 @@
+body{
+background-image: url('background\ transparant.png');
+}
+
+.judul{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-color: darkgreen;
+}
+
+.Header{
+    width: 100px;
+    margin: 0px;
+    position:relative;
+}
+
+ul{
+    list-style:none;
+    background: #859F3D;
+    padding: 0px 0px;
+    margin: 0px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+ul a:hover{
+    background-color: #31511E;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.column{
+    float:left;
+    padding: 10px 10px;
+}
+
+.column.side{
+    margin:0px 0px;
+    width: 300px;
+    background-color:#3C552D;
+}
+
+.SDGs{
+    color: white;
+}
+
+.awal{
+    text-align: justify;
+}
+
+.column.isi{
+    text-align: justify;
+    margin: 10px;
+    width: 70%;
+    height: 230px;
+    background-color:  #d1ed7f;
+}
+
+.column.side{
+    margin:10px 0px;
+    width: 25%;
+    background-color:#3C552D;
+}
+
+.column.dua{
+    text-align: justify;
+    margin: 0px 10px;
+    width: 50%;
+    height: 430px;
+    background-color:#acc75d;
+}
+
+.awal{
+    text-align: justify;
+}
+
+.column.tiga{
+    text-align: justify;
+    margin: 0px 0px;
+    width: 965px;
+    height: 390px;
+    background-color:#a0c23a;  
+}
+
+.sdgs4{
+    margin: 10px 10px 10px;
+}
+
+.footer{
+    width: 1280px;
+    position: absolute;
+    top:1430px;
+    right: 5px;
+    left: 5px;
+}
+
+

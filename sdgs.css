@@ -1,0 +1,119 @@
+body{
+    background-image: url('background\ transparant.png');
+}
+
+.judul{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-color: #3C552D;
+}
+
+.Header{
+    width: 100px;
+    margin: 0px;
+    position:relative;
+}
+
+ul{
+    list-style:none;
+    background: #859F3D;
+    padding: 0px 0px;
+    margin: 0px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+ul a:hover{
+    background-color: #31511E;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.awal{
+    text-align: justify;
+}
+
+.sdgs4{
+    margin: 10px 0px;
+    
+}
+
+.foto{
+    position: absolute;
+    right: 10px;
+    left: 1004px;
+    top: 696px;
+}
+
+.link{
+    position: absolute;
+    right: 10px;
+    left: 1005px;
+    top: 855px;
+}
+.column{
+    float:left;
+    padding: 10px 10px;
+}
+
+.column.side{
+    margin:10px 0px;
+    width: 20%;
+    background-color:#3C552D;
+}
+
+.column.middle{
+    text-align: justify;
+    margin: 10px;
+    width: 55%;
+    height: 365px;
+    background-color:#d1ed7f;
+}
+
+.column.isi{
+    text-align: justify;
+    margin: 10px;
+    width: 55%;
+    height: 425px;
+    background-color: #acc75d;
+}
+
+.unair{
+    margin:30px;
+    height:150px;
+    width:250px;
+}
+
+.footer{
+    width: 1280px;
+    position: absolute;
+    top:1150px;
+    right: 5px;
+    left: 5px;
+}

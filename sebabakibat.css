@@ -1,0 +1,89 @@
+body{
+    background-image: url(background\ transparant.png);
+}
+
+.Header{
+    width: 100px;
+    margin: 0px;
+    position:relative;
+}
+
+ul{
+    list-style:none;
+    background: #859F3D;
+    padding: 0px 0px;
+    margin: 0px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+ul a:hover{
+    background-color: #31511E;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.judul{
+    text-align: center;
+    text-decoration: underline overline;
+    text-decoration-color: darkgreen;
+}
+
+.sebabakibat{
+   
+    padding: 0px 260px;
+
+}
+
+.isi{
+    width: 1260px;
+    position: relative;
+    top: 5px;
+
+}
+
+.kata{
+    text-align: justify;
+    margin: 10px;
+}
+
+.isi2{
+    width: 1260px;
+    position: absolute;
+    top: 720px;
+}
+
+.footer{
+    width: 1280px;
+    position: absolute;
+    top:800px;
+    right: 5px;
+    left:9px;
+}
